@@ -17,6 +17,7 @@ h1 {
     border: 10px;
     border-color: black;
     align-content: center;
+    height: 100px;
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -47,3 +48,13 @@ h1 {
   }
   
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+  .center {
+      width: 400px;
+      align-content:center;
+      align-items: center;
+      align-self: center;
+      justify-content: center;
+      justify-items: center;
+      justify-self: center;
+  }
